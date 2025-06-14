@@ -1,0 +1,16 @@
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; }
+header { padding: 10px 16px; color: #fff; background:#2196F3; }
+.controls { display:flex; gap:8px; flex-wrap:wrap; margin:16px; }
+.controls input { padding:6px 8px; flex:1; min-width:140px; }
+.controls button { padding:6px 12px; }
+.app-footer { padding:16px; font-size:0.85rem; color:#555; }
+main { padding: 16px; }
+.district-grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+.district-card { border: 1px solid #ddd; border-radius: 6px; padding: 12px; cursor: pointer; transition: background 0.2s; }
+.district-card.checked { background: #C8E6C9; }
+.district-card:hover { background: #F5F5F5; }
+.district-name { font-weight: bold; margin-left: 6px; }
+.poster-count { display:block; font-size: 0.8rem; color:#555; margin-top:4px; }
+.progress-bar-bg { width: 100%; height: 8px; background: #eee; border-radius: 4px; overflow: hidden; }
+.progress-bar-fill { height: 100%; transition: width 0.3s; }
+@media (max-width: 600px) { .district-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); } }
