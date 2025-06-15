@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/senkyoposter-progress-app/static/css/main.a3e75d22.css",
-    "main.js": "/senkyoposter-progress-app/static/js/main.f285fc1d.js",
+    "main.js": "/senkyoposter-progress-app/static/js/main.2e409aef.js",
     "index.html": "/senkyoposter-progress-app/index.html",
     "main.a3e75d22.css.map": "/senkyoposter-progress-app/static/css/main.a3e75d22.css.map",
-    "main.f285fc1d.js.map": "/senkyoposter-progress-app/static/js/main.f285fc1d.js.map"
+    "main.2e409aef.js.map": "/senkyoposter-progress-app/static/js/main.2e409aef.js.map"
   },
   "entrypoints": [
     "static/css/main.a3e75d22.css",
-    "static/js/main.f285fc1d.js"
+    "static/js/main.2e409aef.js"
   ]
 }
